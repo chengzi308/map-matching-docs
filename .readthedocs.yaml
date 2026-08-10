@@ -1,0 +1,21 @@
+# .readthedocs.yaml
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+# 必填：配置文件版本号，不要改动
+version: 2
+
+# 指定构建工具为 MkDocs
+mkdocs:
+  configuration: mkdocs.yml
+
+# 指定构建操作系统环境（可选，默认即为 Ubuntu）
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+
+# 如果文档需要额外 Python 依赖，可以在此添加（本项目不需要）
+# python:
+#   install:
+#     - requirements: docs/requirements.txt
