@@ -4,21 +4,16 @@
 
 ### 将轨迹数据导入以下两个表
 
-![](docs/images/media/image1.png){width="3.4069444444444446in"
-height="4.081944444444445in"}
+![](./images/media/image1.png)
 
 ### **将OSM离线地图导入一下两个表**
 
-![](docs/images/media/image2.png){width="3.1527777777777777in"
-height="2.3958333333333335in"}
-
-![](docs/images/media/image3.png){width="2.828472222222222in"
-height="2.1958333333333333in"}
+![](media/image2.png)
+![](media/image3.png)
 
 ### **将轨迹点匹配到OSM的路段上，完成下面的表**
 
-![](docs/images/media/image4.png){width="2.754861111111111in"
-height="2.4451388888888888in"}
+![](media/image4.png)
 
 注：匹配表本周完成能匹配的轨迹点的匹配，不能匹配的轨迹点后续完成匹配
 
@@ -263,8 +258,7 @@ OSM 数据质量问题。
 
 利用已完成的全量匹配结果 [full_match_result_all.csv](vscode-file://vscode-app/c:/Users/zjl/AppData/Local/Programs/Microsoft VS Code/8761a5560c/resources/app/out/vs/code/electron-browser/workbench/workbench.html)，逐条提取轨迹的匹配路段序列，通过检查路段连通性定位问题。每条轨迹按匹配质量分为三档依次排查，**凡出现路段不连贯，均从以下三个方向逐一诊断**：
 
-![](docs/images/media/image5.png){width="5.763194444444444in"
-height="2.20625in"}
+![](media/image5.png)
 
 **排查的三档顺序**：从最佳轨迹开始，逐步下探。
 
