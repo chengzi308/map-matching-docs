@@ -1,5 +1,4 @@
-site_name: 地图匹配项目文档
+site_name: 工作日志
 nav:
   - 首页: index.md
-  - 工作日志: work_log.md
 theme: readthedocs
